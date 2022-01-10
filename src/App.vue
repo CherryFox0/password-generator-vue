@@ -86,7 +86,7 @@ input::placeholder {
   font-size: 18px;
 }
 
-.btn {
+.btn, .btn-copy {
   background: #ffa550;
   border: 2px solid #ffa550;
   height: 50px;
@@ -103,28 +103,7 @@ input::placeholder {
   transition: ease-in-out 0.3s;
 }
 
-.btn:hover {
-  background-color: #aaaaff;
-}
-
-.btn-copy {
-  background: #ffa550;
-  border: 2px solid #ffa550;
-  height: 50px;
-  width: 150px;
-  border-radius: 15px;
-  position: relative;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  margin: 10px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 18px;
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-.btn-copy:hover {
+.btn:hover, .btn-copy:hover {
   background-color: #aaaaff;
 }
 
